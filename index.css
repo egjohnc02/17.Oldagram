@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 15px;
+    border-bottom: #c6c6c6 1px solid;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 127px;
+}
+
+.post .header {
+    display: flex;
+    justify-content: start;
+}
+
+.post .avatar {
+    width: 34px;
+    border-radius: 50%;
+    padding-right: 7px;
+}
+
+.post .img {
+    width: 100%;
+}
+
+.header{
+    margin: 10px;
+}
+
+.name{
+    font-weight: 900;
+}
+
+.location{
+    font-size: 12px;
+}
+
+.activity{
+    width: 23.8px;
+    padding-right: 20px;
+}
+
+.activities{
+    margin: 21px 10px;
+}
+
+.action{
+    margin: 0 13px;
+}
+.like{
+    font-weight: 900;
+}
+
+.post{
+    border-bottom: #EDEDED 30px solid;
+}
+
+.control-bar img{
+    width: 24px;
+    padding: 10px 7px 10px 0px;
+}
+
+.container{
+    padding: 0px 10px;
+}
+
+.likes,
+.username{
+    font-weight: 900;
+}
